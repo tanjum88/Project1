@@ -40,6 +40,7 @@ public abstract class BaseTest implements IAutoConstant {
 		Reporter.log("PHOTOPATH:"+ path, true);
 		FWUtility.getPhoto(driver, path);
 		}
+				//jjjll
 		driver.close();
 	}
 	
